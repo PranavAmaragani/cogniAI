@@ -6,26 +6,22 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="mx-8">
-    <div>
-        <!-- nav bar -->
-        <div class="flex justify-between content-center items-center">
-          <div class="text-[2rem] font-light">Cogni<span class="font-semibold">AI</span></div>
-      
-          <div>
-              <ul class="flex justify-between content-center items-center px-14 py-3 gap-10 bg-gray-50 rounded-full text-black-50">
-                  <li class="bg-amber-600 py-2 px-6 rounded-full">Home</li>
-                  <li>Work</li>
-                  <li>Expertise</li>
-                  <li>Pricing</li>
-                  <li>Testimonial</li>
-              </ul>
-          </div>
-          <div class="font-light text-white bg-black px-8 py-4 rounded-full">
-              <button>Contact Us</button>
-          </div>
-      </div>
-        <!-- hero section -->
+<body class="class=mx-4 sm:mx-8">
+    <div  class="max-w-7xl mx-auto">
+      <div class="flex flex-col sm:flex-row justify-between items-center py-6">
+        <div class="text-3xl sm:text-4xl font-light">Cogni<span class="font-semibold">AI</span></div>
+        <div class="mt-4 sm:mt-0">
+            <ul class="flex flex-wrap justify-center items-center gap-4 sm:gap-6 bg-gray-50 rounded-full px-4 py-3 text-sm sm:text-base">
+                <li class="bg-amber-600 py-2 px-4 rounded-full text-white">Home</li>
+                <li class="hover:text-amber-600">Work</li>
+                <li class="hover:text-amber-600">Expertise</li>
+                <li class="hover:text-amber-600">Pricing</li>
+                <li class="hover:text-amber-600">Testimonial</li>
+            </ul>
+        </div>
+        <button class="mt-4 sm:mt-0 font-light text-white bg-black px-6 py-3 rounded-full">Contact Us</button>
+    </div>
+    <!--Hero section -->
         <div class="flex flex-col justify-center items-center
             mt-16
             w-[97%] mx-auto
@@ -380,382 +376,199 @@
      
 
       <!--key Features-->
-      <div class=" mx-16 flex flex-col justify-center">
-        <p class="text-xl text-center text-amber-500 font-matter-medium">
-          KEY FEATURES
-        </p>
-        <p class="text-5xl text-center my-3 font-matter-medium tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600 inline-block">
-          Unlock Success with Actionable <br /> Performance Metrics
-        </p>
-        <p class="text-2xl text-stone-400 text-center font-matter-regular my-3">
-          Track, analyse and optimize data to improve peformance and drive
-          success.
-        </p>
-        <div class="grid grid-flow-col max-xl:flex max-xl:flex-wrap grid-rows-2 gap-7 my-8">
-          <div class=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              class="text-amber-600 size-10 bg-white rounded-full p-8 box-content"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
-              />
-            </svg>
-            <p class="text-3xl font-matter-medium pt-16">
-              Predictive Analysis
-            </p>
-            <p class="text-lg font-matter-regular text-stone-400">
-              Forecast Trends with AI driven
-              <br />
-              insights.
-            </p>
-          </div>
-          <div class=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              class="text-amber-600 size-10 bg-white rounded-full p-8 box-content"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"
-              />
-            </svg>
-            <p class="text-3xl font-matter-medium pt-16">
-              Real-Time Reporting
-            </p>
-            <p class="text-lg font-matter-regular text-stone-400">
-              Interactive dashboards for better
-              <br />
-              decision-making.
-            </p>
-          </div>
-          
-          <div class=" bg-[#fff6e9] max-xl:flex-2 p-10 pt-20 w-full h-full row-span-2  rounded-3xl ">
-            <div class="bg-white rounded-3xl py-5 px-10 h-[70%] w-[85%] place-self-center ring-[1.5rem] ring-[#fffaf0]">
-              <p class="flex text-sm">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="size-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300 "
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z"
-                    clipRule="evenodd"
-                  />
+      <div class="mx-4 sm:mx-16 flex flex-col justify-center py-12">
+        <p class="text-lg sm:text-xl text-center text-amber-500 font-medium">KEY FEATURES</p>
+        <p class="text-3xl sm:text-5xl text-center my-3 font-bold tracking-tight bg-clip-text bg-gradient-to-r from-black via-stone-800 to-amber-600">Unlock Success with Actionable <br /> Performance Metrics</p>
+        <p class="text-lg sm:text-2xl text-stone-400 text-center my-3">Track, analyze, and optimize data to improve performance and drive success.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 my-8">
+            <div class="bg-[#f7f7f7] p-6 sm:p-10 rounded-3xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-amber-600 w-10 h-10 bg-white rounded-full p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                 </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="size-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300 "
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="size-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300 "
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </p>
-              <p class="w-full h-2 rounded-full mt-7 mb-4 bg-gradient-to-r from-[#feaf68] to-[#f27418]">
-                &nbsp;
-              </p>
-              
-              <p class="w-full h-8 rounded-full  bg-stone-200 px-2">
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-                <span class="bg-white mx-2 py-2.5 px-1"> &nbsp;</span>
-              </p>
-              <div class=" rounded-full flex bg-stone-100 my-4 text-sm w-fit align-middle font-matter-light">
-                <button class="text-white py-2 px-3  bg-[#f27418] rounded-full">
-                  News Upload
-                </button>
-                <button class="py-2 px-3">Trending</button>
-              </div>
-              <div class="flex bg-[#f7f7f7]  p-2 w-full items-center mb-3 justify-around  rounded-3xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="size-6 p-5 box-content bg-white mx-2 rounded-full "
-                >
-                  <path d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
-                </svg>
-                <p class="font-matter-regular leading-tight ">
-                  Content Refresh Alert <br />
-                  <span class="text-xs text-stone-400 font-matter-light leading-tight">
-                    Post fresh content,,share insights and <br />
-                    stay active. Consistency is key.
-                  </span>
-                </p>
-                <button class="bg-white rounded-full text-xs font-matter-light text-stone-600 px-2 py-1">
-                  20MB
-                </button>
-              </div>
-              <div className="flex bg-[#f7f7f7]  p-2 w-full items-center mb-3 justify-around  rounded-3xl">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="size-6 p-5 box-content bg-white mx-2 rounded-full "
-                >
-                  <path d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
-                </svg>
-                <p class="font-matter-regular leading-tight ">
-                  Content Refresh Alert <br />
-                  <span class="text-xs text-stone-400 font-matter-light leading-tight">
-                    hare valuable content, post consistently
-                    <br />
-                    and keep your audience coming back.
-                  </span>
-                </p>
-                <button class="bg-white rounded-full text-xs font-matter-light text-stone-600 px-2 py-1">
-                  24MB
-                </button>
-              </div>
+                <p class="text-2xl sm:text-3xl font-medium pt-6">Predictive Analysis</p>
+                <p class="text-sm sm:text-lg text-stone-400">Forecast trends with AI-driven insights.</p>
             </div>
-            <p class="text-3xl font-matter-medium pt-16">
-              Automated Data Processing
-            </p>
-            <p class="text-lg font-matter-regular text-stone-600">
-              AI intelligently cleans, structures and analyzes vast
-              <br />
-              amounts of raw data, transforming it into meaningful <br />
-              insights for informed decision-making.
-            </p>
-          </div>
-          <div class=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="text-amber-600 size-10 bg-white rounded-full p-8 box-content"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
-              />
-            </svg>
-  
-            <p class="text-3xl font-matter-medium pt-16">
-              No-Code Simplicity
-            </p>
-            <p class="text-lg font-matter-regular text-stone-400">
-              Designed forbusiness users, not
-              <br />
-              just for data scientists.
-            </p>
-          </div>
-          <div class=" bg-[#f7f7f7]  p-10 w-full h-full max-xl:w-[48%] max-xl:h-1/2   rounded-3xl ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              class="text-amber-600 size-10 bg-white rounded-full p-8 box-content"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"
-              />
-            </svg>
-            <p class="text-3xl font-matter-medium pt-16">
-              Seamless Integrations
-            </p>
-            <p class="text-lg font-matter-regular text-stone-400">
-              Connect with your CRM, <br />
-              eCommerce and databases.
-            </p>
-          </div>
+            <div class="bg-[#f7f7f7] p-6 sm:p-10 rounded-3xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-amber-600 w-10 h-10 bg-white rounded-full p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                </svg>
+                <p class="text-2xl sm:text-3xl font-medium pt-6">Real-Time Reporting</p>
+                <p class="text-sm sm:text-lg text-stone-400">Interactive dashboards for better decision-making.</p>
+            </div>
+            <div class="bg-[#fff6e9] p-6 sm:p-10 rounded-3xl row-span-2">
+                <div class="bg-white rounded-3xl py-5 px-6">
+                    <p class="flex text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-2 h-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300">
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z" clip-rule="evenodd" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-2 h-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300">
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z" clip-rule="evenodd" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-2 h-2 my-2 bg-stone-300 mr-2 rounded-full text-stone-300">
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z" clip-rule="evenodd" />
+                        </svg>
+                    </p>
+                    <p class="w-full h-2 rounded-full mt-4 mb-4 bg-gradient-to-r from-[#feaf68] to-[#f27418]"></p>
+                    <p class="w-full h-8 rounded-full bg-stone-200 px-2 flex flex-wrap gap-1">
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                        <span class="bg-white mx-1 py-2.5 px-1"></span>
+                    </p>
+                    <div class="rounded-full flex bg-stone-100 my-4 text-sm w-fit">
+                        <button class="text-white py-2 px-3 bg-[#f27418] rounded-full">News Upload</button>
+                        <button class="py-2 px-3">Trending</button>
+                    </div>
+                    <div class="flex bg-[#f7f7f7] p-2 items-center mb-3 justify-around rounded-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-3 bg-white mx-2 rounded-full">
+                            <path d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7.478-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
+                        </svg>
+                        <p class="font-medium text-sm leading-tight">Content Refresh Alert <br /><span class="text-xs text-stone-400">Post fresh content, share insights, and stay active. Consistency is key.</span></p>
+                        <button class="bg-white rounded-full text-xs text-stone-600 px-2 py-1">20MB</button>
+                    </div>
+                    <div class="flex bg-[#f7f7f7] p-2 items-center mb-3 justify-around rounded-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-3 bg-white mx-2 rounded-full">
+                            <path d="M21.721 12.752a9.711 9.711 0 0 0-.945-5.003 12.754 12.754 0 0 1-4.339 2.708 18.991 18.991 0 0 1-.214 4.772 17.165 17.165 0 0 0 5.498-2.477ZM14.634 15.55a17.324 17.324 0 0 0 .332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 0 0 .332 4.647 17.385 17.385 0 0 0 5.268 0ZM9.772 17.119a18.963 18.963 0 0 0 4.456 0A17.182 17.182 0 0 1 12 21.724a17.18 17.18 0 0 1-2.228-4.605ZM7.777 15.23a18.87 18.87 0 0 1-.214-4.774 12.753 12.753 0 0 1-4.34-2.708 9.711 9.711 0 0 0-.944 5.004 17.165 17.165 0 0 0 5.498 2.477ZM21.356 14.752a9.765 9.765 0 0 1-7.478 6.817 18.64 18.64 0 0 0 1.988-4.718 18.627 18.627 0 0 0 5.49-2.098ZM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 0 0 1.988 4.718 9.765 9.765 0 0 1-7EDGE-6.816ZM13.878 2.43a9.755 9.755 0 0 1 6.116 3.986 11.267 11.267 0 0 1-3.746 2.504 18.63 18.63 0 0 0-2.37-6.49ZM12 2.276a17.152 17.152 0 0 1 2.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0 1 12 2.276ZM10.122 2.43a18.629 18.629 0 0 0-2.37 6.49 11.266 11.266 0 0 1-3.746-2.504 9.754 9.754 0 0 1 6.116-3.985Z" />
+                        </svg>
+                        <p class="font-medium text-sm leading-tight">Content Refresh Alert <br /><span class="text-xs text-stone-400">Share valuable content, post consistently, and keep your audience coming back.</span></p>
+                        <button class="bg-white rounded-full text-xs text-stone-600 px-2 py-1">24MB</button>
+                    </div>
+                </div>
+                <p class="text-2xl sm:text-3xl font-medium pt-6">Automated Data Processing</p>
+                <p class="text-sm sm:text-lg text-stone-600">AI intelligently cleans, structures, and analyzes vast amounts of raw data, transforming it into meaningful insights for informed decision-making.</p>
+            </div>
+            <div class="bg-[#f7f7f7] p-6 sm:p-10 rounded-3xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-amber-600 w-10 h-10 bg-white rounded-full p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                </svg>
+                <p class="text-2xl sm:text-3xl font-medium pt-6">No-Code Simplicity</p>
+                <p class="text-sm sm:text-lg text-stone-400">Designed for business users, not just for data scientists.</p>
+            </div>
+            <div class="bg-[#f7f7f7] p-6 sm:p-10 rounded-3xl">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-amber-600 w-10 h-10 bg-white rounded-full p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                </svg>
+                <p class="text-2xl sm:text-3xl font-medium pt-6">Seamless Integrations</p>
+                <p class="text-sm sm:text-lg text-stone-400">Connect with your CRM, eCommerce, and databases.</p>
+            </div>
         </div>
-      </div>
+    </div>
 
       <!--Pricing plan-->
-      <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-          <h2 class="text-orange-600 font-semibold mb-2">PRICING PLAN</h2>
-          <h1 class="text-4xl font-bold mb-4">Flexible Plans for Every Need and <span class="text-orange-500">Budget</span></h1>
-          <p class="text-gray-500 mb-12">Choose the perfect plan to scale, save, and maximize value.</p>
-      
-          <div class="grid md:grid-cols-4 gap-8">
-            <!-- Basic Plan -->
-            <div class="bg-gray-50 rounded-3xl p-8 shadow-md flex flex-col justify-between">
-              <div>
-                <h3 class="text-2xl font-semibold mb-4">Basic Plan</h3>
-                <p class="text-gray-500 mb-6">Essential features at no cost to kickstart your journey.</p>
-                <div class="text-4xl font-bold mb-2">Free</div>
-              </div>
-              <div class="flex flex-col gap-4 mt-6">
-                <button class="bg-black text-white py-3 rounded-full font-semibold">Start a Project</button>
-                <ul class="text-left space-y-3 mt-6 text-gray-700">
-                  <li>✅ Essential startup tools</li>
-                  <li>✅ Basic workflow integrations</li>
-                  <li>✅ Standard customer support</li>
-                  <li>✅ Optimized system performance</li>
-                </ul>
-              </div>
+      <section class="py-12 sm:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+            <h2 class="text-orange-600 font-semibold mb-2">PRICING PLAN</h2>
+            <h1 class="text-3xl sm:text-4xl font-bold mb-4">Flexible Plans for Every Need and <span class="text-orange-500">Budget</span></h1>
+            <p class="text-gray-500 mb-12 text-sm sm:text-base">Choose the perfect plan to scale, save, and maximize value.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div class="bg-gray-50 rounded-3xl p-6 sm:p-8 shadow-md flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-semibold mb-4">Basic Plan</h3>
+                        <p class="text-gray-500 mb-6 text-sm sm:text-base">Essential features at no cost to kickstart your journey.</p>
+                        <div class="text-3xl sm:text-4xl font-bold mb-2">Free</div>
+                    </div>
+                    <div class="flex flex-col gap-4 mt-6">
+                        <button class="bg-black text-white py-3 rounded-full font-semibold">Start a Project</button>
+                        <ul class="text-left space-y-3 mt-6 text-gray-700 text-sm sm:text-base">
+                            <li>✅ Essential startup tools</li>
+                            <li>✅ Basic workflow integrations</li>
+                            <li>✅ Standard customer support</li>
+                            <li>✅ Optimized system performance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-orange-50 rounded-3xl p-6 sm:p-8 shadow-lg flex flex-col justify-between lg:col-span-2">
+                    <div class="flex flex-col lg:flex-row gap-6">
+                        <div class="flex-1">
+                            <h3 class="text-xl sm:text-2xl font-semibold mb-4">Pro Plan</h3>
+                            <p class="text-gray-600 mb-6 text-sm sm:text-base">Unlock premium tools and features to boost business efficiency.</p>
+                            <div class="text-3xl sm:text-4xl font-bold mb-4">$1,200<span class="text-lg font-normal">/Month</span></div>
+                            <button class="bg-black text-white py-3 px-6 rounded-full font-semibold mb-6">Start a Project</button>
+                            <ul class="text-left space-y-3 text-gray-700 text-sm sm:text-base">
+                                <li>✅ Advanced business tools</li>
+                                <li>✅ Enhanced platform integrations</li>
+                                <li>✅ Priority customer support</li>
+                                <li>✅ Smart data insights</li>
+                            </ul>
+                        </div>
+                        <div class="flex-1 flex justify-center">
+                            <img src="./Screenshot 2025-04-27 184400.png" alt="Phone Analytics" class="rounded-2xl object-cover max-h-80">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-3xl p-6 sm:p-8 shadow-md flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-semibold mb-4">Enterprise Plan</h3>
+                        <p class="text-gray-500 mb-6 text-sm sm:text-base">Scalable solutions tailored for growing enterprises.</p>
+                        <div class="text-3xl sm:text-4xl font-bold mb-2">$3,400<span class="text-lg font-normal">/Month</span></div>
+                    </div>
+                    <div class="flex flex-col gap-4 mt-6">
+                        <button class="bg-black text-white py-3 rounded-full font-semibold">Start a Project</button>
+                        <ul class="text-left space-y-3 mt-6 text-gray-700 text-sm sm:text-base">
+                            <li>✅ Custom enterprise solutions</li>
+                            <li>✅ Dedicated business support</li>
+                            <li>✅ Advanced security features</li>
+                            <li>✅ Unlimited system integrations</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-      
-            <!-- Pro Plan -->
-        
-            <div class="bg-orange-50 rounded-3xl p-8 shadow-lg flex flex-col md:flex-row justify-between items-center gap-8 md:col-span-2">
-              
-              <!-- Left Side: Text Content -->
-              <div class="flex-1">
-                <h3 class="text-2xl font-semibold mb-4">Pro Plan</h3>
-                <p class="text-gray-600 mb-6">Unlock premium tools and features to boost business efficiency.</p>
-                <div class="text-4xl font-bold mb-4">$1,200<span class="text-lg font-normal">/Month</span></div>
-                <button class="bg-black text-white py-3 px-6 rounded-full font-semibold mb-6">Start a Project</button>
-                <ul class="text-left space-y-3 text-gray-700">
-                  <li>✅ Advanced business tools</li>
-                  <li>✅ Enhanced platform integrations</li>
-                  <li>✅ Priority customer support</li>
-                  <li>✅ Smart data insights</li>
-                </ul>
-              </div>
-
-              <!-- Right Side: Image -->
-              <div class="flex-1 flex justify-center">
-                <img src="./Screenshot 2025-04-27 184400.png" alt="Phone Analytics" class="rounded-2xl object-cover max-h-80">
-              </div>
-
-            </div>
-
-
-      
-            <!-- Enterprise Plan -->
-            <div class="bg-gray-50 rounded-3xl p-8 shadow-md flex flex-col justify-between">
-              <div>
-                <h3 class="text-2xl font-semibold mb-4">Enterprise Plan</h3>
-                <p class="text-gray-500 mb-6">Scalable solutions tailored for growing enterprises.</p>
-                <div class="text-4xl font-bold mb-2">$3,400<span class="text-lg font-normal">/Month</span></div>
-              </div>
-              <div class="flex flex-col gap-4 mt-6">
-                <button class="bg-black text-white py-3 rounded-full font-semibold">Start a Project</button>
-                <ul class="text-left space-y-3 mt-6 text-gray-700">
-                  <li>✅ Custom enterprise solutions</li>
-                  <li>✅ Dedicated business support</li>
-                  <li>✅ Advanced security features</li>
-                  <li>✅ Unlimited system integrations</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
 
-      <!-- Testimonial-->
+      <!--Testimonial-->
 
-      <section class="bg-gray-50 py-16">
-        <div class="container mx-auto px-4">
-          <!-- Header -->
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-12">
-            <div>
-              <p class="text-sm font-semibold uppercase text-orange-500 mb-2">Testimonial</p>
-              <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
-                What Our Customers Say <span class="text-orange-500">About</span> Their Experience
-              </h2>
-              <p class="mt-4 text-gray-600 max-w-xl">
-                Genuine feedback showcasing real success and customer satisfaction.
-              </p>
+      <section class="bg-gray-50 py-12 sm:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-12">
+                <div>
+                    <p class="text-sm font-semibold uppercase text-orange-500 mb-2">Testimonial</p>
+                    <h2 class="text-2xl sm:text-4xl font-bold text-gray-900 leading-tight">What Our Customers Say <span class="text-orange-500">About</span> Their Experience</h2>
+                    <p class="mt-4 text-gray-600 text-sm sm:text-base max-w-xl">Genuine feedback showcasing real success and customer satisfaction.</p>
+                </div>
+                <div class="mt-6 sm:mt-0">
+                    <a href="#all-testimonials" class="inline-block bg-gray-900 text-white font-medium rounded-full px-6 py-3 hover:bg-gray-800 transition">See All Testimonials</a>
+                </div>
             </div>
-            <div class="mt-6 sm:mt-0">
-              <a href="#all-testimonials" class="inline-block bg-gray-900 text-white font-medium rounded-full px-6 py-3 hover:bg-gray-800 transition">
-                See All Testimonials
-              </a>
+            <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow p-6 flex flex-col sm:flex-row items-start">
+                    <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-none overflow-hidden flex-shrink-0">
+                        <img src="./men.jpg" alt="Daniel Pierce" class="object-cover w-full h-full">
+                    </div>
+                    <div class="flex-1 mt-4 sm:mt-0 sm:ml-6">
+                        <p class="text-gray-800 text-lg sm:text-2xl font-bold">“With CogniAI, we transformed raw data into actionable insights, improving productivity, streamlining processes, and enhancing strategic planning.”</p>
+                        <p class="mt-4 font-semibold text-gray-900">Daniel Pierce</p>
+                        <p class="text-sm text-gray-500">CEO, Kiera.io</p>
+                    </div>
+                    <div class="mt-6 sm:mt-0 sm:ml-6 text-right">
+                        <p class="text-2xl sm:text-3xl font-bold text-gray-900">100%</p>
+                        <p class="text-sm text-gray-500">Verified Customer Testimonials</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6 flex flex-col sm:flex-row items-start">
+                    <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-none overflow-hidden flex-shrink-0">
+                        <img src="./women.jpg" alt="Saviera Joeal" class="object-cover w-full h-full">
+                    </div>
+                    <div class="flex-1 mt-4 sm:mt-0 sm:ml-6">
+                        <p class="text-gray-800 text-lg sm:text-2xl font-bold">“From raw data to real results, CogniAI boosts productivity, optimizes operations, and empowers smarter, data-driven business decisions with unmatched efficiency.”</p>
+                        <p class="mt-4 font-semibold text-gray-900">Saviera Joeal</p>
+                        <p class="text-sm text-gray-500">Founder, Lokalne.com</p>
+                    </div>
+                    <div class="mt-6 sm:mt-0 sm:ml-6 text-right">
+                        <p class="text-2xl sm:text-3xl font-bold text-gray-900">7×</p>
+                        <p class="text-sm text-gray-500">Faster, Smarter, and Better!</p>
+                    </div>
+                </div>
             </div>
-          </div>
-      
-          <!-- Testimonials -->
-          <div class="space-y-8">
-            <!-- Testimonial 1 -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col sm:flex-row items-start">
-              <!-- Image -->
-              <div class="w-40 h-40 sm:w-40 sm:h-40 rounded-none overflow-hidden flex-shrink-0">
-                <img src="./men.jpg" alt="Daniel Pierce" class="object-cover w-full h-full">
-              </div>
-              <!-- Content -->
-              <div class="flex-1 mt-4 sm:mt-0 sm:ml-6">
-                <p class="text-gray-800 text-2xl font-bold">
-                  “With CogniAI, we transformed raw data into actionable insights, improving productivity, streamlining processes, and enhancing strategic planning.”
-                </p>
-                <p class="mt-4 font-semibold text-gray-900">Daniel Pierce</p>
-                <p class="text-sm text-gray-500">CEO, Kiera.io</p>
-              </div>
-              <!-- Metric -->
-              <div class="mt-6 sm:mt-0 sm:ml-6 text-right">
-                <p class="text-3xl font-bold text-gray-900">100%</p>
-                <p class="text-sm text-gray-500">Verified Customer Testimonials</p>
-              </div>
-            </div>
-      
-            <!-- Testimonial 2 -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col sm:flex-row items-start">
-              <!-- Image -->
-              <div class="w-40 h-40 sm:w-40 sm:h-40 rounded-none overflow-hidden flex-shrink-0">
-                <img src="./women.jpg" alt="Daniel Pierce" class="object-cover w-full h-full">
-              </div>
-              <!-- Content -->
-              <div class="flex-1 mt-4 sm:mt-0 sm:ml-6">
-                <p class="text-gray-800 text-2xl font-bold">
-                  “From raw data to real results, CogniAI boosts productivity, optimizes operations, and empowers smarter, data-driven business decisions with unmatched efficiency.”
-                </p>
-                <p class="mt-4 font-semibold text-gray-900">Saviera Joeal</p>
-                <p class="text-sm text-gray-500">Founder, Lokalne.com</p>
-              </div>
-              <!-- Metric -->
-              <div class="mt-6 sm:mt-0 sm:ml-6 text-right">
-                <p class="text-3xl font-bold text-gray-900">7×</p>
-                <p class="text-sm text-gray-500">Faster, Smarter, and Better!</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
+
       
 
      
